@@ -1,0 +1,5 @@
+steps:
+  - name: 'ubuntu'
+    script: |
+      echo "Hello from Cloud Build!"
+      echo "CI/CD pipeline is working."
