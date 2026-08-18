@@ -3,3 +3,6 @@ steps:
     script: |
       echo "Hello from Cloud Build!"
       echo "CI/CD pipeline is working."
+
+options:
+  logging: CLOUD_LOGGING_ONLY
